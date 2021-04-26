@@ -1,0 +1,11 @@
+.footer {
+  min-height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #df9a57;
+}
+
+.footer > h3 {
+  padding-left: 2em;
+}

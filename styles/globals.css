@@ -9,7 +9,11 @@ body {
 
 .rooter {
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
+  background-color: #fcd757;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 a {
   color: inherit;
@@ -18,8 +22,18 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+.content {
+  display: flex;
+  align-self: center;
+  min-height: 75vw;
+  width: 80vw;
+  border: 2px solid black;
+  padding: 0 2em 0 2em;
+}
 .not-found {
   font-size: 20rem;
   height: 87%;
