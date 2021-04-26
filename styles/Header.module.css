@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  border: 3px solid pink;
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+}
+
+.headerLink {
+  display: flex;
+  width: 50%;
+}
+.headerLink li {
+  display: flex;
+  padding: 2em;
+  text-decoration: none;
+}
