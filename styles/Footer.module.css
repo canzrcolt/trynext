@@ -4,8 +4,16 @@
   display: flex;
   align-items: center;
   background-color: #df9a57;
+  justify-content: center;
 }
 
-.footer > h3 {
-  padding-left: 2em;
+.footerContainer {
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+  padding-left: 1em;
+}
+.footerContainer > h3 {
+  display: flex;
+  padding-left: 1em;
 }
